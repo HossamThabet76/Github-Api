@@ -14,12 +14,11 @@
 }
 .input{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     gap: 10px;
 }
 input{
-    flex: 1;
+    width: 80%;
     border-radius: 10px;
     height: 54.5px;
     border: none;
@@ -96,6 +95,10 @@ button:hover{
     .content div span:first-child{
         width: 65%;
     }
+    button{
+        font-size: 12px;
+        padding: 15px 10px;
+    }
 }
 @media(max-width:720px){
     .project{
@@ -108,13 +111,11 @@ button:hover{
 @media(max-width:510px){
     .project{
         width: calc(100% - 20px);
-        margin: 50px 10px;
-        padding: 20px 10px;
     }
     input{
+        width: 70%;
         height: 39px;
         font-size: 15px;
-        padding: 0 10px;
     }
     button{
         font-size: 10px;
@@ -124,7 +125,7 @@ button:hover{
         font-size: 13px;
     }
     .content div span:first-child{
-        width: 50%;
+        width: 48%;
     }
     .content div span:nth-child(2){
         width: 60px;
